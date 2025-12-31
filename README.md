@@ -12,45 +12,6 @@ Apaixonado por resolver problemas reais através de **código limpo** e **boas p
 
 ---
 
-## 🚀 Projetos
-
-### 🏎️ Forza Horizon 5 — Auto Drive XP Farm
-
-Automação inteligente de condução no FH5 com farm contínuo de XP.
-
-**Stack:** Python · PyAutoGUI · NumPy · Keyboard / PyInput
-
-- ✅ Direção automatizada com rotinas temporizadas  
-- ✅ Execução contínua sem intervenção  
-- ✅ Controle preciso de aceleração e frenagem  
-- ✅ Sincronização otimizada de eventos
-
----
-
-### 🏫 Sistema de Gestão Escolar Automatizado
-
-Gerenciamento centralizado de dados acadêmicos com sincronização automática.
-
-**Stack:** Java · Apache POI · Maven
-
-- ✅ Leitura e sincronização de planilhas  
-- ✅ Filtros inteligentes e prevenção de conflitos  
-- ✅ Organização estrutural de dados
-
----
-
-### 🎧 Beats E-commerce
-
-Plataforma web responsiva para comercialização de beats.
-
-**Stack:** HTML5 · CSS3
-
-- ✅ Catálogo com identidade visual  
-- ✅ Carrinho com cálculo automático  
-- ✅ Navegação intuitiva
-
----
-
 ## 🎓 Formação
 
 **Engenharia de Software — Estácio**  
