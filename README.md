@@ -1,4 +1,4 @@
-# 🎯 Thiago Filipe
+# Thiago Filipe
 
 **Estudante de Engenharia de Software | Desenvolvedor em Formação**
 
@@ -8,7 +8,7 @@
 
 Desenvolvedor em formação com foco em **Python**, **automação** e **análise de dados**. Formado em **Análise e Desenvolvimento de Sistemas**, atualmente cursando **Engenharia de Software** na Estácio.
 
-Apaixonado por resolver problemas reais através de **código limpo** e **boas práticas**. Busco uma oportunidade como **estagiário em TI** para aplicar conhecimento acadêmico em projetos práticos.
+Apaixonado por resolver problemas reais através de **código limpo** e **boas práticas**.
 
 ---
 
