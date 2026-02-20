@@ -64,8 +64,10 @@ Atualmente, estou em busca de uma **posição de Estágio em TI / Desenvolviment
 ### 🌐 Frontend
 
 <p>
-  <img src="https://img.shields.io/badge/HTML5-e34c26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-264de4?style=for-the-badge&logo=css3&logoColor=white" />
+  <a href="https://www.linkedin.com/in/thiagofilipeantunes/details/certifications/" target="_blank">
+    <img src="https://img.shields.io/badge/HTML5-e34c26?style=for-the-badge&logo=html5&logoColor=white" />
+    <img src="https://img.shields.io/badge/CSS3-264de4?style=for-the-badge&logo=css3&logoColor=white" />
+  </a>
 </p>
 
 - Estruturação de páginas com **HTML5**
@@ -74,16 +76,18 @@ Atualmente, estou em busca de uma **posição de Estágio em TI / Desenvolviment
 ### 📊 Dados, Automação & Ferramentas
 
 <p>
-  <!-- NumPy -->
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-  <!-- Pandas (não estava no CV, mas já que é data stack comum, remova se não usa) -->
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-  <!-- Power BI -->
-  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
-  <!-- Git -->
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <!-- Maven -->
-  <img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white" />
+  <a href="https://www.linkedin.com/in/thiagofilipeantunes/details/certifications/" target="_blank">
+    <!-- NumPy -->
+    <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+    <!-- Pandas (não estava no CV, mas já que é data stack comum, remova se não usa) -->
+    <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+    <!-- Power BI -->
+    <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
+    <!-- Git -->
+    <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+    <!-- Maven -->
+    <img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white" />
+  </a>
 </p>
 
 - **NumPy** e **Pandas**: manipulação e tratamento de dados em Python  
