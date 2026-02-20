@@ -37,8 +37,6 @@ Atualmente, estou em busca de uma **posição de Estágio em TI / Desenvolviment
 
 ### 🧪 Linguagens & Backend
 
-> Os logotipos abaixo são usados para identificar visualmente cada tecnologia, facilitando para recrutadores e outros desenvolvedores entenderem rapidamente meu stack principal.
-
 <p>
   <!-- Python -->
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -57,8 +55,6 @@ Atualmente, estou em busca de uma **posição de Estágio em TI / Desenvolviment
 
 ### 🌐 Frontend
 
-> Ícones usados para sinalizar tecnologias web, voltados a recrutadores e devs front/back interessados em projetos full stack iniciais.
-
 <p>
   <img src="https://img.shields.io/badge/HTML5-e34c26?style=for-the-badge&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/CSS3-264de4?style=for-the-badge&logo=css3&logoColor=white" />
@@ -68,8 +64,6 @@ Atualmente, estou em busca de uma **posição de Estágio em TI / Desenvolviment
 - Estilização básica com **CSS3**
 
 ### 📊 Dados, Automação & Ferramentas
-
-> Logotipos aqui destacam ferramentas comuns no mercado, ajudando recrutadores de vagas de dados/automação a identificar rapidamente meu fit técnico.
 
 <p>
   <!-- NumPy -->
@@ -114,8 +108,6 @@ Atualmente, estou em busca de uma **posição de Estágio em TI / Desenvolviment
 ---
 
 ## 📜 Certificados Selecionados
-
-> Esta lista ajuda recrutadores a validar minha base teórica e prática em tópicos chave de desenvolvimento, QA e dados.
 
 - **Python 2025: Do Básico ao Avançado** — Udemy  
 - **Desenvolvimento Rápido de Aplicações em Python** — Estácio  
