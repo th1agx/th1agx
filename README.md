@@ -39,13 +39,21 @@ Atualmente, estou em busca de uma **posição de Estágio em TI / Desenvolviment
 
 <p>
   <!-- Python -->
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <a href="https://www.linkedin.com/in/thiagofilipeantunes/details/certifications/" target="_blank">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  </a>
   <!-- JavaScript -->
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <a href="https://www.linkedin.com/in/thiagofilipeantunes/details/certifications/" target="_blank">
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  </a>
   <!-- Java -->
-  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <a href="https://www.linkedin.com/in/thiagofilipeantunes/details/certifications/" target="_blank">
+    <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white" />
+  </a>
   <!-- SQL -->
-  <img src="https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <a href="https://www.linkedin.com/in/thiagofilipeantunes/details/certifications/" target="_blank">
+    <img src="https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=postgresql&logoColor=white" />
+  </a>
 </p>
 
 - **Python:** automação, scripts, manipulação de dados  
