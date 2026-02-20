@@ -109,7 +109,8 @@ Atualmente, estou em busca de uma **posição de Estágio em TI / Desenvolviment
 
 ## 📜 Certificados Selecionados
 
-- **Python 2025: Do Básico ao Avançado** — Udemy  
+- **Python 2025: Do Básico ao Avançado** — Udemy
+- **Mergulhe em programação com JavaScript** — Alura  
 - **Desenvolvimento Rápido de Aplicações em Python** — Estácio  
 - **Quality Assurance: Plano de Testes e Gestão de Bugs** — Alura
 - **Git e GitHub: compartilhando e colaborando em projetos** — Alura
