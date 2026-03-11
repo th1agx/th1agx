@@ -1,7 +1,7 @@
 <h1 align="center">👋 Olá, eu sou o Thiago Filipe</h1>
 
 <p align="center">
-  <b>Estudante de Engenharia de Software • Desenvolvedor em Formação</b><br />
+  <b>Estudante de Engenharia de Software • Estagiário de Tecnologia e Processos</b><br />
   Belo Horizonte – MG, Brasil
 </p>
 
@@ -19,17 +19,15 @@
 
 ---
 
-## 👨‍💻 Introdução
+## 👨‍💻 Sobre mim
 
-Sou estudante de **Engenharia de Software** e tecnólogo em **Análise e Desenvolvimento de Sistemas**, focado em desenvolvimento com **Python, JavaScript, e automações**.  
+Sou estudante de **Engenharia de Software**, com formação tecnóloga em **Análise e Desenvolvimento de Sistemas**, atuando como **Estagiário de Tecnologia e Processos na 3D Lab**.
 
-Tenho experiência acadêmica e em projetos pessoais com:
+Atuo no **desenvolvimento de sistemas internos e mapeamento de processos**, trabalhando com **JavaScript e Node.js** no backend, além de noções práticas de **Nest.js** e  **Next.js**.  
 
-- **Automação**, **QA**, **manipulação de dados** e **boas práticas de código**
-- Organização de código, versionamento e aprendizado contínuo
-- Construção de soluções simples, porém bem estruturadas, voltadas para problemas reais
+Tenho conhecimento em **QA, automação, manipulação de dados**, uso de **ferramentas de Gen AI** e participação em **metodologias ágeis** (sprints, planejamento, testes e registro de bugs).
 
-Atualmente, estou em busca de uma **posição de Estágio em TI / Desenvolvimento** para evoluir tecnicamente e contribuir com projetos que façam diferença.
+Gosto de construir soluções simples, bem estruturadas e voltadas para problemas reais – tanto em projetos pessoais quanto profissionais.
 
 ---
 
@@ -38,98 +36,93 @@ Atualmente, estou em busca de uma **posição de Estágio em TI / Desenvolviment
 ### 🧪 Linguagens & Backend
 
 <p>
-  <!-- Python -->
-  <a href="https://www.linkedin.com/in/thiagofilipeantunes/details/certifications/" target="_blank">
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  </a>
   <!-- JavaScript -->
-  <a href="https://www.linkedin.com/in/thiagofilipeantunes/details/certifications/" target="_blank">
-    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  </a>
-  <!-- Java -->
-  <a href="https://www.linkedin.com/in/thiagofilipeantunes/details/certifications/" target="_blank">
-    <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white" />
-  </a>
-  <!-- SQL -->
-  <a href="https://www.linkedin.com/in/thiagofilipeantunes/details/certifications/" target="_blank">
-    <img src="https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=postgresql&logoColor=white" />
-  </a>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <!-- Node.js -->
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+  <!-- Nest.js -->
+  <img src="https://img.shields.io/badge/Nest.js-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" />
+  <!-- Next.js -->
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <!-- Python -->
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <!-- SQL genérico -->
+  <img src="https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=postgresql&logoColor=white" />
 </p>
 
-- **Python:** automação, scripts, manipulação de dados  
-- **JavaScript:** lógica de programação, testes unitários e interação com usuário  
-- **Java:** POO, integração com arquivos/planilhas (Apache POI)  
-- **SQL:** consultas, modelagem básica e bancos relacionais  
+- **JavaScript:** linguagem principal no desenvolvimento de módulos do ERP interno  
+- **Node.js:** backend em JavaScript e base para uso de Nest.js  
+- **Nest.js:** noções práticas para desenvolvimento de APIs e serviços backend  
+- **Next.js:** noções práticas para desenvolvimento frontend com React/SSR   
+- **Python:** automação, scripts e pequenos projetos pessoais  
+- **SQL:** consultas básicas e bancos relacionais  
 
 ### 🌐 Frontend
 
 <p>
-  <a href="https://www.linkedin.com/in/thiagofilipeantunes/details/certifications/" target="_blank">
-    <img src="https://img.shields.io/badge/HTML5-e34c26?style=for-the-badge&logo=html5&logoColor=white" />
-    <img src="https://img.shields.io/badge/CSS3-264de4?style=for-the-badge&logo=css3&logoColor=white" />
-  </a>
+  <img src="https://img.shields.io/badge/HTML5-e34c26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-264de4?style=for-the-badge&logo=css3&logoColor=white" />
 </p>
 
-- Estruturação de páginas com **HTML5**
-- Estilização básica com **CSS3**
+- Estruturação de páginas com **HTML5**  
+- Estilização com **CSS3**  
+- Experiência em interfaces simples para sistemas internos e projetos pessoais  
 
-### 📊 Dados, Automação & Ferramentas
+### 🤖 Automação & Ferramentas
 
 <p>
-  <a href="https://www.linkedin.com/in/thiagofilipeantunes/details/certifications/" target="_blank">
-    <!-- NumPy -->
-    <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-    <!-- Pandas (não estava no CV, mas já que é data stack comum, remova se não usa) -->
-    <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-    <!-- Power BI -->
-    <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
-    <!-- Git -->
-    <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-    <!-- Maven -->
-    <img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white" />
-  </a>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gen%20AI-000000?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 </p>
 
-- **NumPy** e **Pandas**: manipulação e tratamento de dados em Python  
-- **Power BI**: criação de dashboards e visualizações  
-- **Git**: versionamento de código e trabalho com repositórios no GitHub  
-- **Maven & Apache POI**: gestão de dependências Java e integração com planilhas  
+- **Automação com Python** (ex.: scripts para jogos e rotinas repetitivas)  
+- **Gen AI:** uso de ferramentas de IA generativa para ganho de produtividade no desenvolvimento  
+- **Git/GitHub:** versionamento de código e organização de repositórios  
 
-### ✅ Qualidade e Boas Práticas
+### ✅ Qualidade, Processos & Métodos
 
-- **QA:** plano de testes e gestão de bugs  
-- Estruturas de dados e POO  
-- Metodologias ágeis (Scrum / Kanban – nível acadêmico)
+- **QA:** apoio em testes de funcionalidades, plano de testes e registro estruturado de bugs  
+- Participação em **ciclos de desenvolvimento ágil** (sprints, planning, reuniões de acompanhamento)  
+- Noções de **mapeamento de processos** e visão de negócio aplicada à tecnologia  
+
+---
+
+## 💼 Experiência Profissional
+
+- **Estagiário de Tecnologia e Processos — 3D Lab Indústria**  
+  *03/2026 – Atual · Belo Horizonte, MG*  
+  - Desenvolvimento de módulos do **ERP interno** com foco em **JavaScript** e **Node.js**  
+  - Noções práticas de **Nest.js (backend)** e **Next.js (frontend)**  
+  - Uso de **PHP** em integrações com sistemas internos  
+  - Utilização de **ferramentas de Gen AI** para ganho de produtividade  
+  - Participação em **sprints**, reuniões de planejamento e testes de funcionalidades  
+  - Registro e acompanhamento de **bugs** de forma estruturada  
+
+- **Beatmaking e Produção Musical — Autônomo**  
+  *02/2019 – Atual · Remoto, Brasil*  
 
 ---
 
 ## 🎓 Formação Acadêmica
 
 - **Engenharia de Software — Estácio** *(Cursando — 2025)*  
-  - Arquitetura e Modelagem de Software  
-  - Metodologias Ágeis  
-  - Testes, Qualidade e Manutenção  
-  - Engenharia de Requisitos  
+  Belo Horizonte, MG  
 
 - **Análise e Desenvolvimento de Sistemas — Estácio** *(Concluído — 2022–2024)*  
-  - Java & Python  
-  - Programação Orientada a Objetos  
-  - Desenvolvimento Web  
-  - SQL e Bancos Relacionais  
+  Belo Horizonte, MG  
 
 ---
 
-## 📜 Certificados Selecionados
+## 📜 Certificados e Habilidades
 
-- **Python 2025: Do Básico ao Avançado** — Udemy
-- **Mergulhe em programação com JavaScript** — Alura  
 - **Desenvolvimento Rápido de Aplicações em Python** — Estácio  
-- **Quality Assurance: Plano de Testes e Gestão de Bugs** — Alura
-- **Git e GitHub: compartilhando e colaborando em projetos** — Alura
+- **Mergulhe em programação com JavaScript** — Alura  
+- **Quality Assurance: plano de testes e gestão de bugs** — Alura  
+- **Python 2025: Do Básico ao Avançado** — Udemy  
 - **Banco de Dados e SQL** — AlgaWorks  
-- **Java POO** — Curso em Vídeo  
-- **Power BI Completo – Do Básico ao Avançado** — Udemy  
-- **HTML5 e CSS3** — Curso em Vídeo    
+- **Programação de Algoritmos Escaláveis** — Estácio  
+- **HTML5 e CSS3** — Curso em Vídeo  
 
 ---
 
