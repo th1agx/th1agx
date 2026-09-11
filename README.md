@@ -1,4 +1,4 @@
-<h1 align="center">👋 Olá, eu sou o Thiago Filipe</h1>
+<h1 align="center">👋 Olá, eu sou o Thiago Antunes</h1>
 
 <p align="center">
   <b>Engenheiro de Software Júnior • Python • GenAI • AI Agents • Fullstack • ERP</b><br />
