@@ -9,10 +9,9 @@
 </p>
 
 <p align="center">
-  <a href="https://thiagoantunes.com"><img src="https://img.shields.io/badge/Portf%C3%B3lio-thiagoantunes.com-c6f432?style=for-the-badge&labelColor=0a0c07&logo=googlechrome&logoColor=c6f432" alt="Portfólio" /></a>
-  <a href="https://www.linkedin.com/in/thiagofilipeantunes"><img src="https://img.shields.io/badge/LinkedIn-thiagofilipeantunes-c6f432?style=for-the-badge&labelColor=0a0c07" alt="LinkedIn" /></a>
-  <a href="mailto:thiagofsprofissional@gmail.com"><img src="https://img.shields.io/badge/E--mail-fale%20comigo-c6f432?style=for-the-badge&labelColor=0a0c07&logo=gmail&logoColor=c6f432" alt="E-mail" /></a>
-  <img src="https://komarev.com/ghpvc/?username=th1agx&label=visitas&color=c6f432&style=for-the-badge&abbreviated=true" alt="Visitas ao perfil" />
+  <a href="https://thiagoantunes.com"><img src="./assets/contact/portfolio.svg" width="32%" alt="Portfólio: thiagoantunes.com" /></a>
+  <a href="https://www.linkedin.com/in/thiagofilipeantunes"><img src="./assets/contact/linkedin.svg" width="32%" alt="LinkedIn: in/thiagofilipeantunes" /></a>
+  <a href="mailto:thiagofsprofissional@gmail.com"><img src="./assets/contact/email.svg" width="32%" alt="E-mail: thiagofsprofissional@gmail.com" /></a>
 </p>
 
 <img src="./assets/divider.svg" width="100%" alt="" />

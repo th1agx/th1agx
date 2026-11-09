@@ -313,3 +313,35 @@ out("divider.svg", divider());
   ["stats", "04", "ATIVIDADE"],
   ["snake", "05", "SNAKE MODE"],
 ].forEach(([f, n, l]) => out(`headings/${f}.svg`, heading(f, n, l)));
+
+/* ------------------------------------------------------ contact buttons */
+function contact(label, value, icon) {
+  const W = 340;
+  const H = 64;
+  return `
+<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(label)}: ${esc(value)}">
+  <style>
+    .in{opacity:0;animation:in .6s ease-out .1s forwards}
+    @keyframes in{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+  </style>
+  <rect x=".5" y=".5" width="${W - 1}" height="${H - 1}" rx="10" fill="${C.bg}" stroke="${C.line}"/>
+  <path d="M8 20 V8 H20" fill="none" stroke="${C.lime}" stroke-width="2"/>
+  <path d="M${W - 8} ${H - 20} V${H - 8} H${W - 20}" fill="none" stroke="${C.lime}" stroke-width="2"/>
+  <g class="in">
+    <rect x="16" y="14" width="36" height="36" rx="8" fill="#10140b" stroke="${C.line}"/>
+    <g transform="translate(22 20)" fill="none" stroke="${C.lime}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${icon}</g>
+    <text x="66" y="28" font-family="${C.mono}" font-size="10" letter-spacing="2" fill="${C.limeDim}">${esc(label)}</text>
+    <text x="66" y="47" font-family="${C.mono}" font-size="13" fill="${C.text}">${esc(value)}</text>
+    <text x="${W - 22}" y="38" font-family="${C.mono}" font-size="15" fill="${C.lime}" text-anchor="end">↗</text>
+  </g>
+</svg>`;
+}
+
+const icons = {
+  globe: `<circle cx="12" cy="12" r="10"/><ellipse cx="12" cy="12" rx="4.2" ry="10"/><path d="M2 12 H22 M4 6.5 H20 M4 17.5 H20"/>`,
+  linkedin: `<rect x="2" y="2" width="20" height="20" rx="4"/><path d="M7.5 10.5 V17 M7.5 7 V7.2 M11.5 17 V10.5 M11.5 13.5 c0-2 1.3-3.1 3-3.1 s2.8 1 2.8 3.1 V17"/>`,
+  mail: `<rect x="2" y="4.5" width="20" height="15" rx="2.5"/><path d="M3 6 L12 13 L21 6"/>`,
+};
+out("contact/portfolio.svg", contact("PORTFÓLIO", "thiagoantunes.com", icons.globe));
+out("contact/linkedin.svg", contact("LINKEDIN", "in/thiagofilipeantunes", icons.linkedin));
+out("contact/email.svg", contact("E-MAIL", "thiagofsprofissional@gmail.com", icons.mail));
