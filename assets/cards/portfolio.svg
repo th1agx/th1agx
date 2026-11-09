@@ -2,16 +2,8 @@
   <style>
     .m{font-family:'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace}
     .s{font-family:'Segoe UI',Inter,Helvetica,Arial,sans-serif}
-    .run{stroke-dasharray:140 1052;animation:run 16s linear infinite;animation-delay:-13.5s}
-    @keyframes run{to{stroke-dashoffset:-1192}}
-    .dot{animation:pulse 2s ease-in-out infinite}
-    @keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
-    .in{opacity:0;animation:in .8s ease-out forwards}
-    .d1{animation-delay:.15s}.d2{animation-delay:.35s}.d3{animation-delay:.55s}
-    @keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
   </style>
   <rect x=".5" y=".5" width="419" height="175" rx="10" fill="#0a0c07" stroke="#232b14"/>
-  <rect class="run" x=".5" y=".5" width="419" height="175" rx="10" fill="none" stroke="#c6f432" stroke-opacity=".45" stroke-width="1.2" stroke-linecap="round"/>
   <path d="M10 26 V10 H26" fill="none" stroke="#c6f432" stroke-width="2"/>
   <path d="M410 150 V166 H394" fill="none" stroke="#c6f432" stroke-width="2"/>
 

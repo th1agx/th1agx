@@ -196,16 +196,8 @@ function card(p, i) {
   <style>
     .m{font-family:${C.mono}}
     .s{font-family:${C.sans}}
-    .run{stroke-dasharray:140 ${per - 140};animation:run 16s linear infinite;animation-delay:-${(i * 2.7).toFixed(1)}s}
-    @keyframes run{to{stroke-dashoffset:-${per}}}
-    .dot{animation:pulse 2s ease-in-out infinite}
-    @keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
-    .in{opacity:0;animation:in .8s ease-out forwards}
-    .d1{animation-delay:.15s}.d2{animation-delay:.35s}.d3{animation-delay:.55s}
-    @keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
   </style>
   <rect x=".5" y=".5" width="${W - 1}" height="${H - 1}" rx="10" fill="${C.bg}" stroke="${C.line}"/>
-  <rect class="run" x=".5" y=".5" width="${W - 1}" height="${H - 1}" rx="10" fill="none" stroke="${C.lime}" stroke-opacity=".45" stroke-width="1.2" stroke-linecap="round"/>
   <path d="M10 26 V10 H26" fill="none" stroke="${C.lime}" stroke-width="2"/>
   <path d="M${W - 10} ${H - 26} V${H - 10} H${W - 26}" fill="none" stroke="${C.lime}" stroke-width="2"/>
 
