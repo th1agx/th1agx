@@ -53,7 +53,7 @@ function terminal() {
     ["cmd", "cat foco.txt"],
     ["out", "Python · GenAI · LLMs & Agents · Automação · Sistemas Inteligentes"],
     ["cmd", "ls ~/projetos --em-destaque"],
-    ["out", "mneme/   tributax/   devguard-skill/   forza-auto-drive/   portfolio/"],
+    ["out", "mneme/  tributax/  devguard/  forza/  english-learning/  portfolio/"],
     ["cmd", "echo $MISSAO"],
     ["out", "construir IA que prova o que faz — com teste, dado e evidência."],
   ];

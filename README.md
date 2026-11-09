@@ -24,12 +24,12 @@
 
 Sou **Engenheiro de Software na 3D Lab**, estudante de **Engenharia de Software** e tecnólogo em **Análise e Desenvolvimento de Sistemas**. Trabalho no **ERP interno** da empresa, arquitetando e entregando features fullstack, integrações via API e automações que resolvem problemas reais do negócio.
 
-Uso **IA generativa, LLMs e agentes** (Claude Code, Codex) como parte do fluxo de engenharia: analisar código, gerar scripts, testar, refinar e acelerar entregas. E levo a mesma ideia para os meus projetos: **nenhuma decisão sem evidência**, seja um sinal de trading na [MNEME](https://github.com/th1agx/MNEME) ou um imposto calculado no [Tributax](https://github.com/th1agx/Tributax-Motor-Tributario).
+Uso **IA generativa, LLMs e agentes** (Claude Code, Codex) como parte do fluxo de engenharia: analisar código, gerar scripts, testar, refinar e acelerar entregas. E levo a mesma ideia para os meus projetos: **nenhuma decisão sem evidência**, seja um sinal de trading na [MNEME](https://github.com/th1agx/MNEME), um imposto calculado no [Tributax](https://github.com/th1agx/Tributax-Motor-Tributario) ou uma entrega de agente validada pela [DevGuard Skill](https://github.com/th1agx/devguard-skill). Também gosto de automatizar o que é repetitivo, como no [Forza Auto Drive](https://github.com/th1agx/Python---Forza-Horizon-5-Auto-Drive-XP-Farm.), e de construir interfaces com movimento, como o [English Learning Experience](https://github.com/th1agx/English-Learning-Experience) e o meu [portfólio](https://thiagoantunes.com).
 
 ```yaml
 agora:
   trabalhando_em:  ERP interno · 3D Lab
-  construindo:     MNEME (IA financeira) · Tributax (motor tributário)
+  construindo:     MNEME (IA financeira) · Tributax (motor tributário) · DevGuard (skill para agentes)
   estudando:       Engenharia de Software · RAG · agentes multi-etapa
   fora_do_código:  produção musical e beatmaking desde 2019 🎧
 ```
