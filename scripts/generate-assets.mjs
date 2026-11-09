@@ -263,6 +263,7 @@ function heading(file, n, label) {
   <path d="M1 18 V12 a6 6 0 0 1 6 -6 H14" fill="none" stroke="${C.lime}" stroke-width="2"/>
   <text x="16" y="${H / 2 + 5}" class="t" fill="${C.limeDim}" style="font-size:12px;letter-spacing:1px">${n}</text>
   <text x="52" y="${H / 2 + 6}" class="t r" fill="${C.lime}" textLength="${len * 18 - 6}" lengthAdjust="spacingAndGlyphs">${esc(label)}</text>
+  <rect class="c" x="${pillW - 18}" y="${H / 2 - 7}" width="8" height="14" fill="${C.lime}"/>
 </svg>`;
 }
 
