@@ -31,7 +31,6 @@ agora:
   trabalhando_em:  ERP interno · 3D Lab
   construindo:     MNEME (IA financeira) · Tributax (motor tributário) · DevGuard (skill para agentes)
   estudando:       Engenharia de Software · RAG · agentes multi-etapa
-  fora_do_código:  produção musical e beatmaking desde 2019 🎧
 ```
 
 <img src="./assets/headings/stack.svg" width="100%" alt="Stack" />
@@ -88,7 +87,6 @@ agora:
 | [**Gestão de Academias**](https://github.com/th1agx/Sistema-de-Gest-o-de-Academias) | Python · Tkinter · SQLite | Sistema MVC com CLI e GUI para clientes e treinadores |
 | [**Gerenciamento de Produtos**](https://github.com/th1agx/Sistema-de-Gerenciamento-de-Produtos) | JavaScript | CRUD com relatório de estoque e alerta de baixa quantidade (desafio técnico da 3D Lab) |
 | [**Jogo do Número Secreto**](https://github.com/th1agx/Projeto-Jogo-do-Numero-Secreto) | JavaScript · HTML · CSS | Jogo de adivinhação com dicas a cada tentativa |
-| [**Site de Beats**](https://github.com/th1agx/Projeto-desenvolvimento-WEB) | HTML · CSS | Front-end de uma loja de beats, feito na graduação |
 
 </details>
 
@@ -101,7 +99,6 @@ agora:
 !                    módulos do ERP em JavaScript · Nest.js · Next.js · integrações PHP · Claude Code
 # 2025 → hoje        Engenharia de Software · Estácio
 # 2022 → 2024        Análise e Desenvolvimento de Sistemas · Estácio (concluído)
-@ 2019 → hoje        Beatmaking e produção musical · autônomo
 ```
 
 <details>
@@ -120,8 +117,6 @@ agora:
 - **PHP** em integrações com sistemas internos
 - **GenAI, LLMs e agentes** (Claude Code) para refino de código, scripts e automações
 
-**Beatmaking e Produção Musical · Autônomo** · *02/2019 – atual*
-- Produção, criação de beats e projetos criativos independentes, com entrega sob demanda
 
 </details>
 
