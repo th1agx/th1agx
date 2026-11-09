@@ -160,9 +160,3 @@ agora:
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/th1agx/th1agx/output/github-snake.svg" />
   <img alt="Cobrinha comendo meu gráfico de contribuições" src="https://raw.githubusercontent.com/th1agx/th1agx/output/github-snake.svg" />
 </picture>
-
-<img src="./assets/footer.svg" width="100%" alt="Obrigado pela visita" />
-
-<p align="center">
-  <sub>Python · GenAI · LLMs · AI Agents · Automação · Fullstack · ERP · APIs · QA</sub>
-</p>

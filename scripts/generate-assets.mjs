@@ -113,7 +113,6 @@ function terminal() {
     <line x1="0" y1="36" x2="${W}" y2="36" stroke="${C.line}"/>
     <circle cx="22" cy="18" r="6" fill="#ff5f57"/><circle cx="42" cy="18" r="6" fill="#febc2e"/><circle cx="62" cy="18" r="6" fill="#28c840"/>
     <text x="${W / 2}" y="23" text-anchor="middle" fill="${C.muted}" style="font-size:12px">th1agx — zsh — 88×${script.length + 2}</text>
-    <rect class="scan" width="${W}" height="40" fill="url(#sg)"/>
     ${body}
   </g>
   <rect x=".5" y=".5" width="${W - 1}" height="${H - 1}" rx="12" fill="none" stroke="${C.line}"/>
@@ -197,7 +196,7 @@ function card(p, i) {
   <style>
     .m{font-family:${C.mono}}
     .s{font-family:${C.sans}}
-    .run{stroke-dasharray:140 ${per - 140};animation:run 7s linear infinite;animation-delay:-${(i * 1.3).toFixed(1)}s}
+    .run{stroke-dasharray:140 ${per - 140};animation:run 16s linear infinite;animation-delay:-${(i * 2.7).toFixed(1)}s}
     @keyframes run{to{stroke-dashoffset:-${per}}}
     .dot{animation:pulse 2s ease-in-out infinite}
     @keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
@@ -206,7 +205,7 @@ function card(p, i) {
     @keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
   </style>
   <rect x=".5" y=".5" width="${W - 1}" height="${H - 1}" rx="10" fill="${C.bg}" stroke="${C.line}"/>
-  <rect class="run" x=".5" y=".5" width="${W - 1}" height="${H - 1}" rx="10" fill="none" stroke="${C.lime}" stroke-width="1.5" stroke-linecap="round"/>
+  <rect class="run" x=".5" y=".5" width="${W - 1}" height="${H - 1}" rx="10" fill="none" stroke="${C.lime}" stroke-opacity=".45" stroke-width="1.2" stroke-linecap="round"/>
   <path d="M10 26 V10 H26" fill="none" stroke="${C.lime}" stroke-width="2"/>
   <path d="M${W - 10} ${H - 26} V${H - 10} H${W - 26}" fill="none" stroke="${C.lime}" stroke-width="2"/>
 
@@ -222,7 +221,7 @@ function card(p, i) {
   </g>
   <g class="in d3 m" font-size="11">
     <text x="24" y="${H - 18}" fill="${C.lime}">${p.tags.map(esc).join("  ·  ")}</text>
-    <circle class="dot" cx="${W - 24}" cy="${H - 22}" r="4" fill="${C.lime}"/>
+    <circle cx="${W - 24}" cy="${H - 22}" r="4" fill="${C.lime}"/>
     <text x="${W - 34}" y="${H - 18}" fill="${C.muted}" text-anchor="end">${esc(p.status)}</text>
   </g>
 </svg>`;
@@ -272,7 +271,6 @@ function heading(file, n, label) {
   <path d="M1 18 V12 a6 6 0 0 1 6 -6 H14" fill="none" stroke="${C.lime}" stroke-width="2"/>
   <text x="16" y="${H / 2 + 5}" class="t" fill="${C.limeDim}" style="font-size:12px;letter-spacing:1px">${n}</text>
   <text x="52" y="${H / 2 + 6}" class="t r" fill="${C.lime}" textLength="${len * 18 - 6}" lengthAdjust="spacingAndGlyphs">${esc(label)}</text>
-  <rect class="c" x="${pillW - 18}" y="${H / 2 - 7}" width="8" height="14" fill="${C.lime}"/>
 </svg>`;
 }
 
@@ -306,7 +304,7 @@ function footer() {
 out("terminal.svg", terminal());
 projects.forEach((p, i) => out(`cards/${p.file}.svg`, card(p, i)));
 out("divider.svg", divider());
-out("footer.svg", footer());
+
 [
   ["about", "00", "SOBRE MIM"],
   ["stack", "01", "STACK"],

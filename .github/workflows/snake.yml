@@ -40,6 +40,10 @@ jobs:
             dist/github-snake.svg?color_snake=#5f7a10&color_dots=#ebedf0,#e4f7b5,#c2e86a,#8fbf1d,#5f7a10
             dist/github-snake-dark.svg?palette=github-dark&color_snake=#c6f432&color_dots=#161b22,#2b3a10,#4d6b12,#86b81c,#c6f432
 
+      # tira a barra de progresso de baixo da cobrinha
+      - name: Trim snake progress bar
+        run: node scripts/trim-snake.mjs dist/github-snake.svg dist/github-snake-dark.svg
+
       # publica os SVGs na branch "output"
       - name: Push SVGs to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
