@@ -66,9 +66,9 @@ agora:
   <a href="https://github.com/th1agx/MNEME"><img src="./assets/cards/mneme.svg" width="49%" alt="MNEME — IA financeira híbrida" /></a>
   <a href="https://github.com/th1agx/Tributax-Motor-Tributario"><img src="./assets/cards/tributax.svg" width="49%" alt="Tributax — motor de decisão tributária" /></a>
   <a href="https://github.com/th1agx/devguard-skill"><img src="./assets/cards/devguard.svg" width="49%" alt="DevGuard Skill — disciplina de desenvolvimento para agentes de IA" /></a>
-  <a href="https://github.com/th1agx/Portifolio_ThiagoAntunes"><img src="./assets/cards/portfolio.svg" width="49%" alt="Portfólio — thiagoantunes.com" /></a>
-  <a href="https://github.com/th1agx/little-worlds"><img src="./assets/cards/little-worlds.svg" width="49%" alt="Little Worlds — portfólio 3D" /></a>
+  <a href="https://github.com/th1agx/Python---Forza-Horizon-5-Auto-Drive-XP-Farm."><img src="./assets/cards/forza.svg" width="49%" alt="Forza Horizon 5 Auto Drive — automação em Python" /></a>
   <a href="https://github.com/th1agx/English-Learning-Experience"><img src="./assets/cards/english.svg" width="49%" alt="English Learning Experience" /></a>
+  <a href="https://github.com/th1agx/Portifolio_ThiagoAntunes"><img src="./assets/cards/portfolio.svg" width="49%" alt="Portfólio — thiagoantunes.com" /></a>
 </p>
 
 <p align="center">
@@ -86,7 +86,6 @@ agora:
 | Projeto | Stack | Sobre |
 |---|---|---|
 | [**IPITO**](https://github.com/th1agx/ipito-the-marketplace) | em planejamento | Marketplace brasileiro para adegas, tabacarias e lojas de acessórios |
-| [**Forza Horizon 5 Auto Drive**](https://github.com/th1agx/Python---Forza-Horizon-5-Auto-Drive-XP-Farm.) | Python | Automação de corridas com simulação de teclado e controle de tempo para farm de XP |
 | [**Gestão de Academias**](https://github.com/th1agx/Sistema-de-Gest-o-de-Academias) | Python · Tkinter · SQLite | Sistema MVC com CLI e GUI para clientes e treinadores |
 | [**Gerenciamento de Produtos**](https://github.com/th1agx/Sistema-de-Gerenciamento-de-Produtos) | JavaScript | CRUD com relatório de estoque e alerta de baixa quantidade (desafio técnico da 3D Lab) |
 | [**Jogo do Número Secreto**](https://github.com/th1agx/Projeto-Jogo-do-Numero-Secreto) | JavaScript · HTML · CSS | Jogo de adivinhação com dicas a cada tentativa |
