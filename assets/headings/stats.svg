@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="46" viewBox="0 0 900 46" role="img" aria-label="ATIVIDADE">
+  <style>
+    .t{font-family:'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace;font-size:16px;letter-spacing:6px}
+    .c{animation:blink 1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+    .l{stroke-dasharray:900;stroke-dashoffset:900;animation:draw 1.6s ease-out .9s forwards}
+    @keyframes draw{to{stroke-dashoffset:0}}
+    .r{clip-path:inset(0 100% 0 0);animation:type 0.63s steps(9) .2s forwards}
+    @keyframes type{to{clip-path:inset(0 0 0 0)}}
+  </style>
+  <line class="l" x1="226" y1="23" x2="900" y2="23" stroke="#7f9a24" stroke-opacity=".6"/>
+  <rect x=".5" y="6.5" width="226" height="33" rx="6" fill="#0a0c07" stroke="#232b14"/>
+  <path d="M1 18 V12 a6 6 0 0 1 6 -6 H14" fill="none" stroke="#c6f432" stroke-width="2"/>
+  <text x="16" y="28" class="t" fill="#7f9a24" style="font-size:12px;letter-spacing:1px">04</text>
+  <text x="52" y="29" class="t r" fill="#c6f432" textLength="156" lengthAdjust="spacingAndGlyphs">ATIVIDADE</text>
+  <rect class="c" x="208" y="16" width="8" height="14" fill="#c6f432"/>
+</svg>

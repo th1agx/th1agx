@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="176" viewBox="0 0 420 176" role="img" aria-label="Portfólio: Portfólio construído como um filme: câmera parada, conteúdo transitando, texto acendendo palavra por palavra. Bilíngue PT/EN.">
+  <style>
+    .m{font-family:'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace}
+    .s{font-family:'Segoe UI',Inter,Helvetica,Arial,sans-serif}
+    .run{stroke-dasharray:140 1052;animation:run 7s linear infinite;animation-delay:-3.9s}
+    @keyframes run{to{stroke-dashoffset:-1192}}
+    .dot{animation:pulse 2s ease-in-out infinite}
+    @keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+    .in{opacity:0;animation:in .8s ease-out forwards}
+    .d1{animation-delay:.15s}.d2{animation-delay:.35s}.d3{animation-delay:.55s}
+    @keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  </style>
+  <rect x=".5" y=".5" width="419" height="175" rx="10" fill="#0a0c07" stroke="#232b14"/>
+  <rect class="run" x=".5" y=".5" width="419" height="175" rx="10" fill="none" stroke="#c6f432" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M10 26 V10 H26" fill="none" stroke="#c6f432" stroke-width="2"/>
+  <path d="M410 150 V166 H394" fill="none" stroke="#c6f432" stroke-width="2"/>
+
+  <g class="in">
+    <text x="24" y="34" class="m" font-size="11" fill="#7f9a24" letter-spacing="2">// 04</text>
+    <circle cx="78" cy="30" r="5" fill="#3178c6"/>
+    <text x="88" y="34" class="m" font-size="11" fill="#98a284">TypeScript</text>
+    <text x="396" y="35" class="m" font-size="16" fill="#c6f432" text-anchor="end">↗</text>
+  </g>
+  <text x="24" y="66" class="in d1" font-family="Georgia,'Times New Roman',serif" font-size="24" fill="#eef2e2">Portfólio</text>
+  <g class="in d2 s" font-size="12.5" fill="#98a284">
+    <text x="24" y="92">Portfólio construído como um filme: câmera parada,</text>
+    <text x="24" y="110">conteúdo transitando, texto acendendo palavra por palavra.</text>
+    <text x="24" y="128">Bilíngue PT/EN.</text>
+  </g>
+  <g class="in d3 m" font-size="11">
+    <text x="24" y="158" fill="#c6f432">React 19  ·  GSAP  ·  Motion  ·  Lenis</text>
+    <circle class="dot" cx="396" cy="154" r="4" fill="#c6f432"/>
+    <text x="386" y="158" fill="#98a284" text-anchor="end">thiagoantunes.com</text>
+  </g>
+</svg>

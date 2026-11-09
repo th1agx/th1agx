@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="304" viewBox="0 0 880 304" role="img" aria-label="Terminal: whoami — Thiago Antunes, Software Engineer">
+  <style>
+    text{font-family:'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace;font-size:14px}
+    .cursor{animation:blink 1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+    .scan{animation:scan 7s linear infinite}
+    @keyframes scan{from{transform:translateY(-40px)}to{transform:translateY(304px)}}
+    @keyframes type{to{clip-path:inset(0 0 0 0)}}
+    @keyframes show{to{opacity:1}}
+    .p0{opacity:0;animation:show 0s 0.30s forwards}
+    .l0{clip-path:inset(0 100% 0 0);animation:type 0.42s steps(6) 0.60s forwards}
+    .l1{clip-path:inset(0 100% 0 0);animation:type .4s ease-out 1.27s forwards}
+    .p2{opacity:0;animation:show 0s 1.92s forwards}
+    .l2{clip-path:inset(0 100% 0 0);animation:type 0.84s steps(12) 2.22s forwards}
+    .l3{clip-path:inset(0 100% 0 0);animation:type .4s ease-out 3.31s forwards}
+    .p4{opacity:0;animation:show 0s 3.96s forwards}
+    .l4{clip-path:inset(0 100% 0 0);animation:type 1.89s steps(27) 4.26s forwards}
+    .l5{clip-path:inset(0 100% 0 0);animation:type .4s ease-out 6.40s forwards}
+    .p6{opacity:0;animation:show 0s 7.05s forwards}
+    .l6{clip-path:inset(0 100% 0 0);animation:type 0.84s steps(12) 7.35s forwards}
+    .l7{clip-path:inset(0 100% 0 0);animation:type .4s ease-out 8.44s forwards}
+    .pl{opacity:0;animation:show 0s 9.39s forwards}
+  </style>
+  <defs>
+    <linearGradient id="sg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c6f432" stop-opacity="0"/>
+      <stop offset="1" stop-color="#c6f432" stop-opacity=".06"/>
+    </linearGradient>
+    <clipPath id="win"><rect width="880" height="304" rx="12"/></clipPath>
+  </defs>
+  <g clip-path="url(#win)">
+    <rect width="880" height="304" fill="#0a0c07"/>
+    <rect width="880" height="36" fill="#10140b"/>
+    <line x1="0" y1="36" x2="880" y2="36" stroke="#232b14"/>
+    <circle cx="22" cy="18" r="6" fill="#ff5f57"/><circle cx="42" cy="18" r="6" fill="#febc2e"/><circle cx="62" cy="18" r="6" fill="#28c840"/>
+    <text x="440" y="23" text-anchor="middle" fill="#98a284" style="font-size:12px">th1agx — zsh — 88×10</text>
+    <rect class="scan" width="880" height="40" fill="url(#sg)"/>
+    <text class="p0" x="28" y="62" textLength="137.6" lengthAdjust="spacingAndGlyphs"><tspan fill="#c6f432" font-weight="700">thiago@th1agx</tspan><tspan fill="#98a284">:</tspan><tspan fill="#7cc4ff">~</tspan><tspan fill="#98a284">$</tspan></text>
+    <text class="l0" x="174.2" y="62" fill="#eef2e2" textLength="51.6" lengthAdjust="spacingAndGlyphs">whoami</text>
+    <text class="l1" x="28" y="88" textLength="567.6" lengthAdjust="spacingAndGlyphs"><tspan fill="#c6f432">›</tspan><tspan fill="#98a284"> Thiago Antunes — Software Engineer @ 3D Lab · Belo Horizonte, BR</tspan></text>
+    <text class="p2" x="28" y="114" textLength="137.6" lengthAdjust="spacingAndGlyphs"><tspan fill="#c6f432" font-weight="700">thiago@th1agx</tspan><tspan fill="#98a284">:</tspan><tspan fill="#7cc4ff">~</tspan><tspan fill="#98a284">$</tspan></text>
+    <text class="l2" x="174.2" y="114" fill="#eef2e2" textLength="103.2" lengthAdjust="spacingAndGlyphs">cat foco.txt</text>
+    <text class="l3" x="28" y="140" textLength="584.8" lengthAdjust="spacingAndGlyphs"><tspan fill="#c6f432">›</tspan><tspan fill="#98a284"> Python · GenAI · LLMs &amp; Agents · Automação · Sistemas Inteligentes</tspan></text>
+    <text class="p4" x="28" y="166" textLength="137.6" lengthAdjust="spacingAndGlyphs"><tspan fill="#c6f432" font-weight="700">thiago@th1agx</tspan><tspan fill="#98a284">:</tspan><tspan fill="#7cc4ff">~</tspan><tspan fill="#98a284">$</tspan></text>
+    <text class="l4" x="174.2" y="166" fill="#eef2e2" textLength="232.2" lengthAdjust="spacingAndGlyphs">ls ~/projetos --em-destaque</text>
+    <text class="l5" x="28" y="192" textLength="584.8" lengthAdjust="spacingAndGlyphs"><tspan fill="#c6f432">›</tspan><tspan fill="#98a284"> mneme/   tributax/   devguard-skill/   little-worlds/   portfolio/</tspan></text>
+    <text class="p6" x="28" y="218" textLength="137.6" lengthAdjust="spacingAndGlyphs"><tspan fill="#c6f432" font-weight="700">thiago@th1agx</tspan><tspan fill="#98a284">:</tspan><tspan fill="#7cc4ff">~</tspan><tspan fill="#98a284">$</tspan></text>
+    <text class="l6" x="174.2" y="218" fill="#eef2e2" textLength="103.2" lengthAdjust="spacingAndGlyphs">echo $MISSAO</text>
+    <text class="l7" x="28" y="244" textLength="559.0" lengthAdjust="spacingAndGlyphs"><tspan fill="#c6f432">›</tspan><tspan fill="#98a284"> construir IA que prova o que faz — com teste, dado e evidência.</tspan></text>
+    <g class="pl"><text class="" x="28" y="270" textLength="137.6" lengthAdjust="spacingAndGlyphs"><tspan fill="#c6f432" font-weight="700">thiago@th1agx</tspan><tspan fill="#98a284">:</tspan><tspan fill="#7cc4ff">~</tspan><tspan fill="#98a284">$</tspan></text>
+    <rect class="cursor" x="174.2" y="256" width="9" height="18" fill="#c6f432"/></g>
+  </g>
+  <rect x=".5" y=".5" width="879" height="303" rx="12" fill="none" stroke="#232b14"/>
+  <path d="M1 30 V12 a11 11 0 0 1 11 -11 H30" fill="none" stroke="#c6f432" stroke-width="2"/>
+  <path d="M879 274 V292 a11 11 0 0 1 -11 11 H850" fill="none" stroke="#c6f432" stroke-width="2"/>
+</svg>

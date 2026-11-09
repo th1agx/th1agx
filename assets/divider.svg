@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="16" viewBox="0 0 900 16">
+  <style>
+    .p{animation:go 4s cubic-bezier(.6,0,.4,1) infinite}
+    @keyframes go{from{transform:translateX(-220px)}to{transform:translateX(900px)}}
+  </style>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#c6f432" stop-opacity="0"/>
+      <stop offset=".8" stop-color="#c6f432" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#c6f432" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <line x1="0" y1="8" x2="900" y2="8" stroke="#c6f432" stroke-opacity=".18"/>
+  <rect class="p" x="0" y="7" width="220" height="2" fill="url(#g)"/>
+  <rect x="446" y="4" width="8" height="8" fill="#0a0c07" stroke="#c6f432" transform="rotate(45 450 8)"/>
+</svg>

@@ -1,201 +1,168 @@
-<h1 align="center">👋 Olá, eu sou o Thiago Antunes</h1>
+<a href="https://thiagoantunes.com">
+  <img src="./assets/banner.webp" width="100%" alt="Thiago Antunes — Software Engineer · AI Engineering · Automação · Sistemas Inteligentes" />
+</a>
 
 <p align="center">
-  <b>Engenheiro de Software Júnior • Python • GenAI • AI Agents • Fullstack • ERP</b><br />
-  Belo Horizonte – MG, Brasil
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/thiagofilipeantunes" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0e76a8?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://github.com/th1agx" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="mailto:thiagofsprofissional@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/E--mail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  <a href="https://thiagoantunes.com">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=2600&pause=1100&color=C6F432&center=true&vCenter=true&width=680&height=40&lines=Software+Engineer+%40+3D+Lab;Python+%C2%B7+GenAI+%C2%B7+LLMs+%26+AI+Agents;construindo+sistemas+que+provam+o+que+fazem;automa%C3%A7%C3%A3o+%C2%B7+dados+%C2%B7+integra%C3%A7%C3%B5es+%C2%B7+ERP" alt="Software Engineer @ 3D Lab · Python · GenAI · LLMs & AI Agents" />
   </a>
 </p>
 
----
-
-## 👨‍💻 Sobre mim
-
-Sou **Engenheiro de Software Júnior na 3D Lab** e estudante de **Engenharia de Software**, com formação tecnóloga em **Análise e Desenvolvimento de Sistemas**.
-
-Tenho foco em **Python, IA Generativa, LLMs, agentes de IA, automações, análise de dados e desenvolvimento de sistemas web**. Atuo no desenvolvimento de **ERP interno**, integrações via API e soluções fullstack, participando da arquitetura, planejamento e implementação de features voltadas para necessidades reais do negócio.
-
-No dia a dia, utilizo **IA Generativa, LLMs, agentes de IA e práticas de Prompt Engineering** para apoiar análise de código, criação de scripts, automações, testes, refino de funcionalidades e otimização de fluxos internos. Tenho contato prático com ferramentas como **Claude Code e Codex**, aplicando IA como apoio ao desenvolvimento, análise técnica, melhoria de produtividade e construção de soluções mais eficientes.
-
-Também atuo com **JavaScript, PHP, Laravel, bancos de dados e integrações entre plataformas**, combinando desenvolvimento fullstack com visão de negócio, QA, documentação e melhoria contínua.
-
-Gosto de pensar soluções de ponta a ponta: entender o processo, desenhar o fluxo, implementar a lógica, integrar sistemas, testar, documentar e evoluir a solução com base em evidências.
-
-Atualmente, meu foco é consolidar uma carreira em **Engenharia de Software com IA aplicada**, priorizando **Python, agentes de IA, automações, integrações, dados e sistemas inteligentes**.
-
----
-
-## 🚀 Principais Focos
-
-- **Python aplicado a automações, scripts, dados e soluções com IA**
-- **IA Generativa, LLMs, agentes de IA e Prompt Engineering**
-- **Desenvolvimento de sistemas web, ERP e integrações via API**
-- **Automação de processos e otimização de fluxos internos**
-- **QA, testes, validação de funcionalidades e melhoria contínua**
-- **Fullstack com JavaScript, PHP, Laravel e bancos de dados**
-
----
-
-## 🧰 Habilidades Técnicas
-
-### 🤖 Python, GenAI & Agentes de IA
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/GenAI-000000?style=for-the-badge&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/LLMs-412991?style=for-the-badge&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/AI%20Agents-111827?style=for-the-badge&logo=anthropic&logoColor=white" />
-  <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white" />
-  <img src="https://img.shields.io/badge/Codex-111111?style=for-the-badge&logo=openai&logoColor=white" />
+<p align="center">
+  <a href="https://thiagoantunes.com"><img src="https://img.shields.io/badge/Portf%C3%B3lio-thiagoantunes.com-c6f432?style=for-the-badge&labelColor=0a0c07&logo=googlechrome&logoColor=c6f432" alt="Portfólio" /></a>
+  <a href="https://www.linkedin.com/in/thiagofilipeantunes"><img src="https://img.shields.io/badge/LinkedIn-thiagofilipeantunes-c6f432?style=for-the-badge&labelColor=0a0c07" alt="LinkedIn" /></a>
+  <a href="mailto:thiagofsprofissional@gmail.com"><img src="https://img.shields.io/badge/E--mail-fale%20comigo-c6f432?style=for-the-badge&labelColor=0a0c07&logo=gmail&logoColor=c6f432" alt="E-mail" /></a>
+  <img src="https://komarev.com/ghpvc/?username=th1agx&label=visitas&color=c6f432&style=for-the-badge&abbreviated=true" alt="Visitas ao perfil" />
 </p>
 
-- **Python:** scripts, automações, manipulação de dados e apoio a soluções com IA
-- **GenAI e LLMs:** uso prático no desenvolvimento, análise de código e criação de soluções internas
-- **Agentes de IA:** aplicação em fluxos de desenvolvimento, planejamento, testes e automações
-- **Prompt Engineering:** estruturação de prompts para análise, refino, geração de código e produtividade
-- **Claude Code e Codex:** apoio em análise técnica, refino de código, criação de scripts e otimização de fluxos
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-### 🧪 Desenvolvimento Fullstack, Backend & ERP
-
-<p>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nest.js-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=postgresql&logoColor=white" />
-</p>
-
-- **JavaScript:** desenvolvimento de módulos, regras de negócio e sistemas internos
-- **PHP/Laravel:** desenvolvimento e manutenção de funcionalidades em sistemas web e ERP
-- **Node.js/Nest.js:** noções práticas para APIs e serviços backend
-- **Next.js:** noções práticas para frontend com React
-- **SQL/Bancos de Dados:** consultas, manipulação de dados e apoio em integrações
-- **APIs:** integração entre plataformas, sistemas internos e serviços externos
-
-### 🌐 Frontend
-
-<p>
-  <img src="https://img.shields.io/badge/HTML5-e34c26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-264de4?style=for-the-badge&logo=css3&logoColor=white" />
-</p>
-
-- Estruturação de páginas e interfaces com **HTML5**
-- Estilização com **CSS3**
-- Desenvolvimento de interfaces para sistemas internos e projetos pessoais
-
-### ✅ Qualidade, Processos & Métodos
-
-<p>
-  <img src="https://img.shields.io/badge/QA-2563EB?style=for-the-badge&logo=checkmarx&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kanban-0052CC?style=for-the-badge&logo=trello&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-</p>
-
-- **QA:** testes de funcionalidades, validação de fluxos e registro estruturado de bugs
-- **Kanban e sprints:** acompanhamento de demandas, planejamento e melhoria contínua
-- **Git/GitHub:** versionamento de código, organização de repositórios e colaboração
-- **Mapeamento de processos:** entendimento de regras de negócio e fluxos internos
-
----
-
-## 💼 Experiência Profissional
-
-### Engenheiro de Software Júnior — 3D Lab
-
-*06/2026 – Atual · Belo Horizonte, MG*
-
-- Desenvolvimento de módulos do **ERP interno**, arquitetando, planejando e implementando features fullstack em sistemas web
-- Aplicação de **Python, IA Generativa, LLMs, agentes de IA e Prompt Engineering** para análise de código, criação de scripts, automações e ganho de produtividade
-- Uso prático de ferramentas como **Claude Code e Codex** no apoio ao desenvolvimento, refino de código, testes e otimização de fluxos internos
-- Desenvolvimento e manutenção de soluções com **JavaScript, PHP, Laravel, Python, bancos de dados e integrações via API**
-- Apoio em testes, validação de funcionalidades, análise de bugs e melhoria contínua de processos internos
-
-### Estagiário de Tecnologia e Processos — 3D Lab
-
-*03/2026 – 06/2026 · Belo Horizonte, MG*
-
-- Atuação no desenvolvimento de módulos do **ERP interno** com foco em **JavaScript**
-- Noções práticas de **Nest.js** no backend e **Next.js** no frontend
-- Uso de **PHP** em integrações com sistemas internos
-- Utilização de **GenAI, LLMs e agentes de IA**, como **Claude Code**, para análise e refino de código, criação de scripts, automações e otimização de fluxos
-
-### Beatmaking e Produção Musical — Autônomo
-
-*02/2019 – Atual · Remoto, Brasil*
-
-- Produção musical, criação de beats e desenvolvimento de projetos criativos independentes
-- Experiência com organização de projetos, atendimento a demandas, criatividade aplicada e entrega sob demanda
-
----
-
-## 🚀 Projetos
-
-### GenAI · Dev Guard Skill
-
-Skill de disciplina de desenvolvimento para agentes de IA, focada em **SDD, planejamento, testes, smoke tests, stress tests e entrega baseada em evidências**.
-
-### Python · Forza Horizon 5 Auto Drive XP Farm
-
-Automação em **Python** para conduzir veículos no Forza Horizon 5, realizando trajetos contínuos e acumulando XP automaticamente.
-
-### JavaScript · Jogo do Número Secreto
-
-Jogo interativo de adivinhação em que o usuário tenta descobrir um número secreto gerado aleatoriamente.
-
----
-
-## 🎓 Formação Acadêmica
-
-- **Engenharia de Software — Estácio**  
-  *Cursando desde 2025 · Belo Horizonte, MG*
-
-- **Análise e Desenvolvimento de Sistemas — Estácio**  
-  *Concluído · 2022–2024 · Belo Horizonte, MG*
-
----
-
-## 📜 Certificados e Habilidades
-
-- **Introduction to AI** — Google
-- **Revelando o poder dos Agentes de IA** — IBM
-- **Python 2026: Do Básico ao Avançado** — Udemy
-- **Desenvolvimento Rápido de Aplicações em Python** — Estácio
-- **Git e GitHub: compartilhando e colaborando em projetos** — Alura
-- **Mergulhe em programação com JavaScript** — Alura
-- **Quality Assurance: plano de testes e gestão de bugs** — Alura
-- **Banco de Dados e SQL** — AlgaWorks
-- **Programação de Algoritmos Escaláveis** — Estácio
-
----
-
-## 🌍 Idiomas
-
-- 🇧🇷 **Português:** Nativo
-- 🇺🇸 **Inglês:** Intermediário
-
----
-
-## 📫 Contato
-
-- 📧 E-mail: **[thiagofsprofissional@gmail.com](mailto:thiagofsprofissional@gmail.com)**
-- 💼 LinkedIn: **[linkedin.com/in/thiagofilipeantunes](https://www.linkedin.com/in/thiagofilipeantunes)**
-- 🐙 GitHub: **[github.com/th1agx](https://github.com/th1agx)**
-
----
+<img src="./assets/headings/about.svg" width="100%" alt="Sobre mim" />
 
 <p align="center">
-  <b>Python • GenAI • LLMs • AI Agents • Prompt Engineering • Codex • Claude Code • Fullstack • ERP • APIs • Automation • QA</b>
+  <img src="./assets/terminal.svg" width="100%" alt="thiago@th1agx:~$ whoami — Thiago Antunes, Software Engineer na 3D Lab em Belo Horizonte. Foco em Python, GenAI, LLMs e agentes, automação e sistemas inteligentes." />
+</p>
+
+Sou **Engenheiro de Software na 3D Lab**, estudante de **Engenharia de Software** e tecnólogo em **Análise e Desenvolvimento de Sistemas**. Trabalho no **ERP interno** da empresa, arquitetando e entregando features fullstack, integrações via API e automações que resolvem problemas reais do negócio.
+
+Uso **IA generativa, LLMs e agentes** (Claude Code, Codex) como parte do fluxo de engenharia: analisar código, gerar scripts, testar, refinar e acelerar entregas. E levo a mesma ideia para os meus projetos: **nenhuma decisão sem evidência**, seja um sinal de trading na [MNEME](https://github.com/th1agx/MNEME) ou um imposto calculado no [Tributax](https://github.com/th1agx/Tributax-Motor-Tributario).
+
+```yaml
+agora:
+  trabalhando_em:  ERP interno · 3D Lab
+  construindo:     MNEME (IA financeira) · Tributax (motor tributário)
+  estudando:       Engenharia de Software · RAG · agentes multi-etapa
+  fora_do_código:  produção musical e beatmaking desde 2019 🎧
+```
+
+<img src="./assets/headings/stack.svg" width="100%" alt="Stack" />
+
+<p align="center"><b><code>IA &amp; Agentes</code></b></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Claude%20Code-c6f432?style=flat-square&labelColor=0a0c07&logo=anthropic&logoColor=c6f432&label=%E2%96%B8" alt="Claude Code" />
+  <img src="https://img.shields.io/badge/Codex-c6f432?style=flat-square&labelColor=0a0c07&logo=openai&logoColor=c6f432&label=%E2%96%B8" alt="Codex" />
+  <img src="https://img.shields.io/badge/LLMs-c6f432?style=flat-square&labelColor=0a0c07&label=%E2%96%B8" alt="LLMs" />
+  <img src="https://img.shields.io/badge/AI%20Agents-c6f432?style=flat-square&labelColor=0a0c07&label=%E2%96%B8" alt="AI Agents" />
+  <img src="https://img.shields.io/badge/RAG-c6f432?style=flat-square&labelColor=0a0c07&label=%E2%96%B8" alt="RAG" />
+  <img src="https://img.shields.io/badge/LangGraph-c6f432?style=flat-square&labelColor=0a0c07&logo=langchain&logoColor=c6f432&label=%E2%96%B8" alt="LangGraph" />
+  <img src="https://img.shields.io/badge/Ollama-c6f432?style=flat-square&labelColor=0a0c07&logo=ollama&logoColor=c6f432&label=%E2%96%B8" alt="Ollama" />
+  <img src="https://img.shields.io/badge/Prompt%20Engineering-c6f432?style=flat-square&labelColor=0a0c07&label=%E2%96%B8" alt="Prompt Engineering" />
+  <img src="https://img.shields.io/badge/Machine%20Learning-c6f432?style=flat-square&labelColor=0a0c07&logo=scikitlearn&logoColor=c6f432&label=%E2%96%B8" alt="Machine Learning" />
+</p>
+
+<p align="center"><b><code>Linguagens, back-end &amp; dados</code></b></p>
+<p align="center">
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=python,ts,js,php,laravel,nodejs,nestjs,postgres,mysql,sqlite&theme=dark" alt="Python, TypeScript, JavaScript, PHP, Laravel, Node.js, NestJS, PostgreSQL, MySQL, SQLite" /></a>
+</p>
+
+<p align="center"><b><code>Front-end, motion &amp; ferramentas</code></b></p>
+<p align="center">
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=react,nextjs,vite,threejs,html,css,docker,git,github,githubactions,cloudflare,vercel&theme=dark" alt="React, Next.js, Vite, Three.js, HTML, CSS, Docker, Git, GitHub, GitHub Actions, Cloudflare, Vercel" /></a>
+</p>
+
+<img src="./assets/headings/projects.svg" width="100%" alt="Projetos" />
+
+<p align="center">
+  <a href="https://github.com/th1agx/MNEME"><img src="./assets/cards/mneme.svg" width="49%" alt="MNEME — IA financeira híbrida" /></a>
+  <a href="https://github.com/th1agx/Tributax-Motor-Tributario"><img src="./assets/cards/tributax.svg" width="49%" alt="Tributax — motor de decisão tributária" /></a>
+  <a href="https://github.com/th1agx/devguard-skill"><img src="./assets/cards/devguard.svg" width="49%" alt="DevGuard Skill — disciplina de desenvolvimento para agentes de IA" /></a>
+  <a href="https://github.com/th1agx/Portifolio_ThiagoAntunes"><img src="./assets/cards/portfolio.svg" width="49%" alt="Portfólio — thiagoantunes.com" /></a>
+  <a href="https://github.com/th1agx/little-worlds"><img src="./assets/cards/little-worlds.svg" width="49%" alt="Little Worlds — portfólio 3D" /></a>
+  <a href="https://github.com/th1agx/English-Learning-Experience"><img src="./assets/cards/english.svg" width="49%" alt="English Learning Experience" /></a>
+</p>
+
+<p align="center">
+  <b>Ao vivo&nbsp;→</b>
+  <a href="https://mneme-1b8.pages.dev/">MNEME</a> ·
+  <a href="https://tributax-api.onrender.com/docs">Tributax API (Swagger)</a> ·
+  <a href="https://thiagoantunes.com">thiagoantunes.com</a> ·
+  <a href="https://th1agx.github.io/English-Learning-Experience/">English Learning</a>
+</p>
+
+<details>
+<summary><b>Mais projetos</b></summary>
+<br />
+
+| Projeto | Stack | Sobre |
+|---|---|---|
+| [**IPITO**](https://github.com/th1agx/ipito-the-marketplace) | em planejamento | Marketplace brasileiro para adegas, tabacarias e lojas de acessórios |
+| [**Forza Horizon 5 Auto Drive**](https://github.com/th1agx/Python---Forza-Horizon-5-Auto-Drive-XP-Farm.) | Python | Automação de corridas com simulação de teclado e controle de tempo para farm de XP |
+| [**Gestão de Academias**](https://github.com/th1agx/Sistema-de-Gest-o-de-Academias) | Python · Tkinter · SQLite | Sistema MVC com CLI e GUI para clientes e treinadores |
+| [**Gerenciamento de Produtos**](https://github.com/th1agx/Sistema-de-Gerenciamento-de-Produtos) | JavaScript | CRUD com relatório de estoque e alerta de baixa quantidade (desafio técnico da 3D Lab) |
+| [**Jogo do Número Secreto**](https://github.com/th1agx/Projeto-Jogo-do-Numero-Secreto) | JavaScript · HTML · CSS | Jogo de adivinhação com dicas a cada tentativa |
+| [**Site de Beats**](https://github.com/th1agx/Projeto-desenvolvimento-WEB) | HTML · CSS | Front-end de uma loja de beats, feito na graduação |
+
+</details>
+
+<img src="./assets/headings/journey.svg" width="100%" alt="Trajetória" />
+
+```diff
++ 06/2026 → hoje     Engenheiro de Software Júnior · 3D Lab · BH
++                    ERP interno fullstack · Python · IA generativa · agentes · APIs · JS · PHP/Laravel
+! 03/2026 → 06/2026  Estagiário de Tecnologia e Processos · 3D Lab · BH
+!                    módulos do ERP em JavaScript · Nest.js · Next.js · integrações PHP · Claude Code
+# 2025 → hoje        Engenharia de Software · Estácio
+# 2022 → 2024        Análise e Desenvolvimento de Sistemas · Estácio (concluído)
+@ 2019 → hoje        Beatmaking e produção musical · autônomo
+```
+
+<details>
+<summary><b>Experiência em detalhes</b></summary>
+<br />
+
+**Engenheiro de Software Júnior · 3D Lab** · *06/2026 – atual*
+- Arquitetura, planejamento e implementação de features fullstack nos módulos do **ERP interno**
+- **Python, IA generativa, LLMs, agentes e prompt engineering** aplicados a análise de código, scripts, automações e produtividade
+- **Claude Code e Codex** no apoio ao desenvolvimento, refino de código, testes e otimização de fluxos
+- Soluções com **JavaScript, PHP, Laravel, Python, bancos de dados e integrações via API**
+- Testes, validação de funcionalidades, análise de bugs e melhoria contínua
+
+**Estagiário de Tecnologia e Processos · 3D Lab** · *03/2026 – 06/2026*
+- Módulos do **ERP interno** com foco em **JavaScript**, com **Nest.js** no back-end e **Next.js** no front-end
+- **PHP** em integrações com sistemas internos
+- **GenAI, LLMs e agentes** (Claude Code) para refino de código, scripts e automações
+
+**Beatmaking e Produção Musical · Autônomo** · *02/2019 – atual*
+- Produção, criação de beats e projetos criativos independentes, com entrega sob demanda
+
+</details>
+
+<details>
+<summary><b>Certificados</b></summary>
+<br />
+
+| Certificado | Instituição |
+|---|---|
+| Introduction to AI | Google |
+| Revelando o poder dos Agentes de IA | IBM |
+| Python 2026: Do Básico ao Avançado | Udemy |
+| Desenvolvimento Rápido de Aplicações em Python | Estácio |
+| Programação de Algoritmos Escaláveis | Estácio |
+| Git e GitHub: compartilhando e colaborando em projetos | Alura |
+| Mergulhe em programação com JavaScript | Alura |
+| Quality Assurance: plano de testes e gestão de bugs | Alura |
+| Banco de Dados e SQL | AlgaWorks |
+
+🌍 **Idiomas:** 🇧🇷 Português (nativo) · 🇺🇸 Inglês (intermediário)
+
+</details>
+
+<img src="./assets/headings/stats.svg" width="100%" alt="Atividade" />
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/th1agx/th1agx/output/stats.svg" width="100%" alt="Estatísticas do GitHub: contribuições, repositórios, sequência, linguagens e gráfico dos últimos 60 dias" />
+</p>
+
+<img src="./assets/headings/snake.svg" width="100%" alt="Snake mode" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/th1agx/th1agx/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/th1agx/th1agx/output/github-snake.svg" />
+  <img alt="Cobrinha comendo meu gráfico de contribuições" src="https://raw.githubusercontent.com/th1agx/th1agx/output/github-snake.svg" />
+</picture>
+
+<img src="./assets/footer.svg" width="100%" alt="Obrigado pela visita" />
+
+<p align="center">
+  <sub>Python · GenAI · LLMs · AI Agents · Automação · Fullstack · ERP · APIs · QA</sub>
 </p>
