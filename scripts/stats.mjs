@@ -57,7 +57,7 @@ const topLangs = Object.entries(langs).sort((a, b) => b[1].size - a[1].size).sli
   .map(([name, l]) => ({ name, color: l.color, pct: (l.size / langTotal) * 100 }));
 
 // ---------------------------------------------------------------- SVG
-const C = { bg: "#0a0c07", line: "#232b14", lime: "#c6f432", dim: "#7f9a24", text: "#eef2e2", muted: "#98a284" };
+const C = { bg: "#03040a", panel: "#080a18", line: "#161b44", blue: "#1f2dff", hi: "#6e7bff", dim: "#5a63c4", text: "#eef0ff", muted: "#959bbd" };
 const mono = "'JetBrains Mono','Fira Code',Consolas,monospace";
 const W = 900, H = 400;
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;");
@@ -73,9 +73,9 @@ const tw = (W - 48 - 4 * 12) / 5;
 const tilesSvg = tiles.map(([label, val], i) => {
   const x = 24 + i * (tw + 12);
   return `<g class="up" style="animation-delay:${(i * 0.12).toFixed(2)}s">
-    <rect x="${x}" y="24" width="${tw}" height="78" rx="8" fill="#10140b" stroke="${C.line}"/>
+    <rect x="${x}" y="24" width="${tw}" height="78" rx="8" fill="${C.panel}" stroke="${C.line}"/>
     <text x="${x + 14}" y="48" font-size="10" fill="${C.muted}" letter-spacing="1.5">${esc(label)}</text>
-    <text x="${x + 14}" y="86" font-size="28" font-weight="700" fill="${C.lime}">${esc(val)}</text>
+    <text x="${x + 14}" y="86" font-size="28" font-weight="700" fill="${C.hi}">${esc(val)}</text>
   </g>`;
 }).join("");
 
@@ -124,27 +124,28 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" 
     @keyframes ping{0%{opacity:.8;transform:scale(1)}100%{opacity:0;transform:scale(3.2)}}
   </style>
   <defs>
+    <filter id="glow" x="-10%" y="-50%" width="120%" height="200%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <linearGradient id="ag" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="${C.lime}" stop-opacity=".35"/>
-      <stop offset="1" stop-color="${C.lime}" stop-opacity="0"/>
+      <stop offset="0" stop-color="${C.blue}" stop-opacity=".35"/>
+      <stop offset="1" stop-color="${C.blue}" stop-opacity="0"/>
     </linearGradient>
   </defs>
   <rect x=".5" y=".5" width="${W - 1}" height="${H - 1}" rx="12" fill="${C.bg}" stroke="${C.line}"/>
-  <path d="M1 30 V12 a11 11 0 0 1 11 -11 H30" fill="none" stroke="${C.lime}" stroke-width="2"/>
-  <path d="M${W - 1} ${H - 30} V${H - 12} a11 11 0 0 1 -11 11 H${W - 30}" fill="none" stroke="${C.lime}" stroke-width="2"/>
+  <path d="M1 30 V12 a11 11 0 0 1 11 -11 H30" fill="none" stroke="${C.blue}" stroke-width="2"/>
+  <path d="M${W - 1} ${H - 30} V${H - 12} a11 11 0 0 1 -11 11 H${W - 30}" fill="none" stroke="${C.blue}" stroke-width="2"/>
   ${tilesSvg}
   <text x="${cx}" y="${cy - 6}" font-size="11" fill="${C.dim}" letter-spacing="1.5">// CONTRIBUIÇÕES · ÚLTIMOS 60 DIAS</text>
   ${grid}
   <line x1="${cx}" x2="${cx + cw}" y1="${cy + ch}" y2="${cy + ch}" stroke="${C.line}"/>
   <path class="ar" d="${areaPath}" fill="url(#ag)"/>
-  <path class="ln" d="${linePath}" fill="none" stroke="${C.lime}" stroke-width="2" stroke-linejoin="round"/>
-  <circle class="ring" cx="${lastPt[0].toFixed(1)}" cy="${lastPt[1].toFixed(1)}" r="4" fill="none" stroke="${C.lime}" stroke-width="1.5"/>
-  <circle class="pt" cx="${lastPt[0].toFixed(1)}" cy="${lastPt[1].toFixed(1)}" r="4" fill="${C.lime}"/>
+  <path class="ln" d="${linePath}" fill="none" stroke="${C.blue}" stroke-width="2" stroke-linejoin="round" filter="url(#glow)"/>
+  <circle class="ring" cx="${lastPt[0].toFixed(1)}" cy="${lastPt[1].toFixed(1)}" r="4" fill="none" stroke="${C.blue}" stroke-width="1.5"/>
+  <circle class="pt" cx="${lastPt[0].toFixed(1)}" cy="${lastPt[1].toFixed(1)}" r="4" fill="${C.blue}"/>
   <text x="${cx}" y="${cy + ch + 20}" font-size="10" fill="${C.muted}">${fmt(last[0].date)}</text>
   <text x="${cx + cw}" y="${cy + ch + 20}" font-size="10" fill="${C.muted}" text-anchor="end">${fmt(last[last.length - 1].date)}</text>
   <text x="${cx + cw / 2}" y="${cy + ch + 20}" font-size="10" fill="${C.muted}" text-anchor="middle">pico: ${max}/dia</text>
   <text x="${lx}" y="${cy - 6}" font-size="11" fill="${C.dim}" letter-spacing="1.5">// LINGUAGENS</text>
-  <rect x="${lx}" y="${cy + 30}" width="${lw}" height="10" rx="5" fill="#10140b"/>
+  <rect x="${lx}" y="${cy + 30}" width="${lw}" height="10" rx="5" fill="${C.panel}"/>
   <g class="bar">${bar}</g>
   ${legend}
   <text x="${W - 24}" y="${H - 14}" font-size="9" fill="${C.muted}" text-anchor="end" opacity=".7">atualizado em ${new Date().toISOString().slice(0, 10)}</text>

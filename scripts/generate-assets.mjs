@@ -13,17 +13,21 @@ const out = (p, s) => {
 };
 
 const C = {
-  bg: "#0a0c07",
-  panel: "#10140b",
-  line: "#232b14",
-  lime: "#c6f432",
-  limeDim: "#7f9a24",
-  text: "#eef2e2",
-  muted: "#98a284",
+  bg: "#03040a",
+  panel: "#080a18",
+  line: "#161b44",
+  blue: "#1f2dff", // azul da marca (traços, cursor, brilho)
+  hi: "#6e7bff", // azul claro legível para texto
+  blueDim: "#5a63c4",
+  text: "#eef0ff",
+  muted: "#959bbd",
   mono: "'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace",
   serif: "Georgia,'Times New Roman',serif",
   sans: "'Segoe UI',Inter,Helvetica,Arial,sans-serif",
 };
+
+// Brilho neon como o da logo: um blur do traço por baixo do traço original.
+const GLOW = `<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>`;
 
 const esc = (s) =>
   s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -66,7 +70,7 @@ function terminal() {
   let css = "";
   const tl = (s) => `textLength="${(s.length * charW).toFixed(1)}" lengthAdjust="spacingAndGlyphs"`;
   const promptEl = (y, cls) =>
-    `<text class="${cls}" x="28" y="${y}" ${tl("thiago@th1agx:~$")}><tspan fill="${C.lime}" font-weight="700">thiago@th1agx</tspan><tspan fill="${C.muted}">:</tspan><tspan fill="#7cc4ff">~</tspan><tspan fill="${C.muted}">$</tspan></text>`;
+    `<text class="${cls}" x="28" y="${y}" ${tl("thiago@th1agx:~$")}><tspan fill="${C.hi}" font-weight="700">thiago@th1agx</tspan><tspan fill="${C.muted}">:</tspan><tspan fill="#7cc4ff">~</tspan><tspan fill="${C.muted}">$</tspan></text>`;
   script.forEach(([kind, txt], i) => {
     const y = top + i * lh;
     if (kind === "cmd") {
@@ -79,14 +83,14 @@ function terminal() {
     } else {
       const full = "› " + txt;
       css += `.l${i}{clip-path:inset(0 100% 0 0);animation:type .4s ease-out ${t.toFixed(2)}s forwards}\n    `;
-      body += `<text class="l${i}" x="28" y="${y}" ${tl(full)}><tspan fill="${C.lime}">›</tspan><tspan fill="${C.muted}"> ${esc(txt)}</tspan></text>\n    `;
+      body += `<text class="l${i}" x="28" y="${y}" ${tl(full)}><tspan fill="${C.hi}">›</tspan><tspan fill="${C.muted}"> ${esc(txt)}</tspan></text>\n    `;
       t += 0.95;
     }
   });
   const lastY = top + script.length * lh;
   css += `.pl{opacity:0;animation:show 0s ${t.toFixed(2)}s forwards}`;
   body += `<g class="pl">${promptEl(lastY, "")}
-    <rect class="cursor" x="${28 + prompt.length * charW}" y="${lastY - 14}" width="9" height="18" fill="${C.lime}"/></g>`;
+    <rect class="cursor" x="${28 + prompt.length * charW}" y="${lastY - 14}" width="9" height="18" fill="${C.blue}" filter="url(#glow)"/></g>`;
 
   return `
 <svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Terminal: whoami — Thiago Antunes, Software Engineer">
@@ -101,9 +105,10 @@ function terminal() {
     ${css}
   </style>
   <defs>
+    ${GLOW}
     <linearGradient id="sg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="${C.lime}" stop-opacity="0"/>
-      <stop offset="1" stop-color="${C.lime}" stop-opacity=".06"/>
+      <stop offset="0" stop-color="${C.blue}" stop-opacity="0"/>
+      <stop offset="1" stop-color="${C.blue}" stop-opacity=".06"/>
     </linearGradient>
     <clipPath id="win"><rect width="${W}" height="${H}" rx="12"/></clipPath>
   </defs>
@@ -116,8 +121,8 @@ function terminal() {
     ${body}
   </g>
   <rect x=".5" y=".5" width="${W - 1}" height="${H - 1}" rx="12" fill="none" stroke="${C.line}"/>
-  <path d="M1 30 V12 a11 11 0 0 1 11 -11 H30" fill="none" stroke="${C.lime}" stroke-width="2"/>
-  <path d="M${W - 1} ${H - 30} V${H - 12} a11 11 0 0 1 -11 11 H${W - 30}" fill="none" stroke="${C.lime}" stroke-width="2"/>
+  <path d="M1 30 V12 a11 11 0 0 1 11 -11 H30" fill="none" stroke="${C.blue}" stroke-width="2" filter="url(#glow)"/>
+  <path d="M${W - 1} ${H - 30} V${H - 12} a11 11 0 0 1 -11 11 H${W - 30}" fill="none" stroke="${C.blue}" stroke-width="2" filter="url(#glow)"/>
 </svg>`;
 }
 
@@ -197,23 +202,24 @@ function card(p, i) {
     .m{font-family:${C.mono}}
     .s{font-family:${C.sans}}
   </style>
+  <defs>${GLOW}</defs>
   <rect x=".5" y=".5" width="${W - 1}" height="${H - 1}" rx="10" fill="${C.bg}" stroke="${C.line}"/>
-  <path d="M10 26 V10 H26" fill="none" stroke="${C.lime}" stroke-width="2"/>
-  <path d="M${W - 10} ${H - 26} V${H - 10} H${W - 26}" fill="none" stroke="${C.lime}" stroke-width="2"/>
+  <path d="M10 26 V10 H26" fill="none" stroke="${C.blue}" stroke-width="2" filter="url(#glow)"/>
+  <path d="M${W - 10} ${H - 26} V${H - 10} H${W - 26}" fill="none" stroke="${C.blue}" stroke-width="2" filter="url(#glow)"/>
 
   <g class="in">
-    <text x="24" y="34" class="m" font-size="11" fill="${C.limeDim}" letter-spacing="2">// ${p.n}</text>
+    <text x="24" y="34" class="m" font-size="11" fill="${C.blueDim}" letter-spacing="2">// ${p.n}</text>
     <circle cx="${78}" cy="30" r="5" fill="${langColor[p.lang]}"/>
     <text x="88" y="34" class="m" font-size="11" fill="${C.muted}">${p.lang}</text>
-    <text x="${W - 24}" y="35" class="m" font-size="16" fill="${C.lime}" text-anchor="end">↗</text>
+    <text x="${W - 24}" y="35" class="m" font-size="16" fill="${C.hi}" text-anchor="end">↗</text>
   </g>
   <text x="24" y="66" class="in d1" font-family="${C.serif}" font-size="${titleSize}" fill="${C.text}">${esc(p.title)}</text>
   <g class="in d2 s" font-size="12.5" fill="${C.muted}">
     ${lines.map((l, k) => `<text x="24" y="${92 + k * 18}">${esc(l)}</text>`).join("\n    ")}
   </g>
   <g class="in d3 m" font-size="11">
-    <text x="24" y="${H - 18}" fill="${C.lime}">${p.tags.map(esc).join("  ·  ")}</text>
-    <circle cx="${W - 24}" cy="${H - 22}" r="4" fill="${C.lime}"/>
+    <text x="24" y="${H - 18}" fill="${C.hi}">${p.tags.map(esc).join("  ·  ")}</text>
+    <circle cx="${W - 24}" cy="${H - 22}" r="4" fill="${C.blue}"/>
     <text x="${W - 34}" y="${H - 18}" fill="${C.muted}" text-anchor="end">${esc(p.status)}</text>
   </g>
 </svg>`;
@@ -230,14 +236,14 @@ function divider() {
   </style>
   <defs>
     <linearGradient id="g" x1="0" x2="1">
-      <stop offset="0" stop-color="${C.lime}" stop-opacity="0"/>
-      <stop offset=".8" stop-color="${C.lime}" stop-opacity=".9"/>
-      <stop offset="1" stop-color="${C.lime}" stop-opacity="0"/>
+      <stop offset="0" stop-color="${C.blue}" stop-opacity="0"/>
+      <stop offset=".8" stop-color="${C.blue}" stop-opacity=".9"/>
+      <stop offset="1" stop-color="${C.blue}" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <line x1="0" y1="8" x2="${W}" y2="8" stroke="${C.lime}" stroke-opacity=".18"/>
+  <line x1="0" y1="8" x2="${W}" y2="8" stroke="${C.blue}" stroke-opacity=".18"/>
   <rect class="p" x="0" y="7" width="220" height="2" fill="url(#g)"/>
-  <rect x="${W / 2 - 4}" y="4" width="8" height="8" fill="${C.bg}" stroke="${C.lime}" transform="rotate(45 ${W / 2} 8)"/>
+  <rect x="${W / 2 - 4}" y="4" width="8" height="8" fill="${C.bg}" stroke="${C.blue}" transform="rotate(45 ${W / 2} 8)"/>
 </svg>`;
 }
 
@@ -258,12 +264,13 @@ function heading(file, n, label) {
     .r{clip-path:inset(0 100% 0 0);animation:type ${(len * 0.07).toFixed(2)}s steps(${len}) .2s forwards}
     @keyframes type{to{clip-path:inset(0 0 0 0)}}
   </style>
-  <line class="l" x1="${pillW}" y1="${H / 2}" x2="${W}" y2="${H / 2}" stroke="#7f9a24" stroke-opacity=".6"/>
+  <defs>${GLOW}</defs>
+  <line class="l" x1="${pillW}" y1="${H / 2}" x2="${W}" y2="${H / 2}" stroke="${C.blueDim}" stroke-opacity=".6"/>
   <rect x=".5" y="6.5" width="${pillW}" height="${H - 13}" rx="6" fill="${C.bg}" stroke="${C.line}"/>
-  <path d="M1 18 V12 a6 6 0 0 1 6 -6 H14" fill="none" stroke="${C.lime}" stroke-width="2"/>
-  <text x="16" y="${H / 2 + 5}" class="t" fill="${C.limeDim}" style="font-size:12px;letter-spacing:1px">${n}</text>
-  <text x="52" y="${H / 2 + 6}" class="t r" fill="${C.lime}" textLength="${len * 18 - 6}" lengthAdjust="spacingAndGlyphs">${esc(label)}</text>
-  <rect class="c" x="${pillW - 18}" y="${H / 2 - 7}" width="8" height="14" fill="${C.lime}"/>
+  <path d="M1 18 V12 a6 6 0 0 1 6 -6 H14" fill="none" stroke="${C.blue}" stroke-width="2" filter="url(#glow)"/>
+  <text x="16" y="${H / 2 + 5}" class="t" fill="${C.blueDim}" style="font-size:12px;letter-spacing:1px">${n}</text>
+  <text x="52" y="${H / 2 + 6}" class="t r" fill="${C.hi}" textLength="${len * 18 - 6}" lengthAdjust="spacingAndGlyphs">${esc(label)}</text>
+  <rect class="c" x="${pillW - 18}" y="${H / 2 - 7}" width="8" height="14" fill="${C.blue}" filter="url(#glow)"/>
 </svg>`;
 }
 
@@ -284,12 +291,12 @@ function footer() {
   return `
 <svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Equalizador animado — obrigado pela visita">
   <style>
-    .b{fill:${C.lime};transform-box:fill-box;transform-origin:bottom;animation:eq 1s ease-in-out infinite alternate}
+    .b{fill:${C.blue};transform-box:fill-box;transform-origin:bottom;animation:eq 1s ease-in-out infinite alternate}
     @keyframes eq{0%{transform:scaleY(.15)}60%{transform:scaleY(.7)}100%{transform:scaleY(1)}}
     text{font-family:${C.mono};font-size:13px;letter-spacing:4px}
   </style>
   ${bars}
-  <line x1="0" y1="72" x2="${W}" y2="72" stroke="${C.lime}" stroke-opacity=".25"/>
+  <line x1="0" y1="72" x2="${W}" y2="72" stroke="${C.blue}" stroke-opacity=".25"/>
   <text x="${W / 2}" y="102" text-anchor="middle" fill="${C.muted}">CODE · BEATS · BUILD · REPEAT</text>
 </svg>`;
 }
@@ -317,15 +324,16 @@ function contact(label, value, icon) {
     .in{opacity:0;animation:in .6s ease-out .1s forwards}
     @keyframes in{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
   </style>
+  <defs>${GLOW}</defs>
   <rect x=".5" y=".5" width="${W - 1}" height="${H - 1}" rx="10" fill="${C.bg}" stroke="${C.line}"/>
-  <path d="M8 20 V8 H20" fill="none" stroke="${C.lime}" stroke-width="2"/>
-  <path d="M${W - 8} ${H - 20} V${H - 8} H${W - 20}" fill="none" stroke="${C.lime}" stroke-width="2"/>
+  <path d="M8 20 V8 H20" fill="none" stroke="${C.blue}" stroke-width="2" filter="url(#glow)"/>
+  <path d="M${W - 8} ${H - 20} V${H - 8} H${W - 20}" fill="none" stroke="${C.blue}" stroke-width="2" filter="url(#glow)"/>
   <g class="in">
-    <rect x="16" y="14" width="36" height="36" rx="8" fill="#10140b" stroke="${C.line}"/>
-    <g transform="translate(22 20)" fill="none" stroke="${C.lime}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${icon}</g>
-    <text x="66" y="28" font-family="${C.mono}" font-size="10" letter-spacing="2" fill="${C.limeDim}">${esc(label)}</text>
+    <rect x="16" y="14" width="36" height="36" rx="8" fill="${C.panel}" stroke="${C.line}"/>
+    <g transform="translate(22 20)" fill="none" stroke="${C.blue}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${icon}</g>
+    <text x="66" y="28" font-family="${C.mono}" font-size="10" letter-spacing="2" fill="${C.blueDim}">${esc(label)}</text>
     <text x="66" y="47" font-family="${C.mono}" font-size="13" fill="${C.text}">${esc(value)}</text>
-    <text x="${W - 22}" y="38" font-family="${C.mono}" font-size="15" fill="${C.lime}" text-anchor="end">↗</text>
+    <text x="${W - 22}" y="38" font-family="${C.mono}" font-size="15" fill="${C.hi}" text-anchor="end">↗</text>
   </g>
 </svg>`;
 }

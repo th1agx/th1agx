@@ -1,10 +1,10 @@
 <a href="https://thiagoantunes.com">
-  <img src="./assets/banner.webp" width="100%" alt="Thiago Antunes — Software Engineer · AI Engineering · Automação · Sistemas Inteligentes" />
+  <img src="./assets/banner.jpg" width="100%" alt="Thiago Antunes — Software Engineer · AI Engineering · Automação · Sistemas Inteligentes" />
 </a>
 
 <p align="center">
   <a href="https://thiagoantunes.com">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=2600&pause=1100&color=C6F432&center=true&vCenter=true&width=680&height=40&lines=Software+Engineer+%40+3D+Lab;Python+%C2%B7+GenAI+%C2%B7+LLMs+%26+AI+Agents;construindo+sistemas+que+provam+o+que+fazem;automa%C3%A7%C3%A3o+%C2%B7+dados+%C2%B7+integra%C3%A7%C3%B5es+%C2%B7+ERP" alt="Software Engineer @ 3D Lab · Python · GenAI · LLMs & AI Agents" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=2600&pause=1100&color=6E7BFF&center=true&vCenter=true&width=680&height=40&lines=Software+Engineer+%40+3D+Lab;Python+%C2%B7+GenAI+%C2%B7+LLMs+%26+AI+Agents;construindo+sistemas+que+provam+o+que+fazem;automa%C3%A7%C3%A3o+%C2%B7+dados+%C2%B7+integra%C3%A7%C3%B5es+%C2%B7+ERP" alt="Software Engineer @ 3D Lab · Python · GenAI · LLMs & AI Agents" />
   </a>
 </p>
 
@@ -37,15 +37,15 @@ agora:
 
 <p align="center"><b><code>IA &amp; Agentes</code></b></p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Claude%20Code-c6f432?style=flat-square&labelColor=0a0c07&logo=anthropic&logoColor=c6f432&label=%E2%96%B8" alt="Claude Code" />
-  <img src="https://img.shields.io/badge/Codex-c6f432?style=flat-square&labelColor=0a0c07&logo=openai&logoColor=c6f432&label=%E2%96%B8" alt="Codex" />
-  <img src="https://img.shields.io/badge/LLMs-c6f432?style=flat-square&labelColor=0a0c07&label=%E2%96%B8" alt="LLMs" />
-  <img src="https://img.shields.io/badge/AI%20Agents-c6f432?style=flat-square&labelColor=0a0c07&label=%E2%96%B8" alt="AI Agents" />
-  <img src="https://img.shields.io/badge/RAG-c6f432?style=flat-square&labelColor=0a0c07&label=%E2%96%B8" alt="RAG" />
-  <img src="https://img.shields.io/badge/LangGraph-c6f432?style=flat-square&labelColor=0a0c07&logo=langchain&logoColor=c6f432&label=%E2%96%B8" alt="LangGraph" />
-  <img src="https://img.shields.io/badge/Ollama-c6f432?style=flat-square&labelColor=0a0c07&logo=ollama&logoColor=c6f432&label=%E2%96%B8" alt="Ollama" />
-  <img src="https://img.shields.io/badge/Prompt%20Engineering-c6f432?style=flat-square&labelColor=0a0c07&label=%E2%96%B8" alt="Prompt Engineering" />
-  <img src="https://img.shields.io/badge/Machine%20Learning-c6f432?style=flat-square&labelColor=0a0c07&logo=scikitlearn&logoColor=c6f432&label=%E2%96%B8" alt="Machine Learning" />
+  <img src="https://img.shields.io/badge/Claude%20Code-1f2dff?style=flat-square&labelColor=03040a&logo=anthropic&logoColor=ffffff&label=%E2%96%B8" alt="Claude Code" />
+  <img src="https://img.shields.io/badge/Codex-1f2dff?style=flat-square&labelColor=03040a&logo=openai&logoColor=ffffff&label=%E2%96%B8" alt="Codex" />
+  <img src="https://img.shields.io/badge/LLMs-1f2dff?style=flat-square&labelColor=03040a&label=%E2%96%B8" alt="LLMs" />
+  <img src="https://img.shields.io/badge/AI%20Agents-1f2dff?style=flat-square&labelColor=03040a&label=%E2%96%B8" alt="AI Agents" />
+  <img src="https://img.shields.io/badge/RAG-1f2dff?style=flat-square&labelColor=03040a&label=%E2%96%B8" alt="RAG" />
+  <img src="https://img.shields.io/badge/LangGraph-1f2dff?style=flat-square&labelColor=03040a&logo=langchain&logoColor=ffffff&label=%E2%96%B8" alt="LangGraph" />
+  <img src="https://img.shields.io/badge/Ollama-1f2dff?style=flat-square&labelColor=03040a&logo=ollama&logoColor=ffffff&label=%E2%96%B8" alt="Ollama" />
+  <img src="https://img.shields.io/badge/Prompt%20Engineering-1f2dff?style=flat-square&labelColor=03040a&label=%E2%96%B8" alt="Prompt Engineering" />
+  <img src="https://img.shields.io/badge/Machine%20Learning-1f2dff?style=flat-square&labelColor=03040a&logo=scikitlearn&logoColor=ffffff&label=%E2%96%B8" alt="Machine Learning" />
 </p>
 
 <p align="center"><b><code>Linguagens, back-end &amp; dados</code></b></p>
@@ -153,3 +153,9 @@ agora:
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/th1agx/th1agx/output/github-snake.svg" />
   <img alt="Cobrinha comendo meu gráfico de contribuições" src="https://raw.githubusercontent.com/th1agx/th1agx/output/github-snake.svg" />
 </picture>
+
+<br />
+
+<p align="center">
+  <a href="https://thiagoantunes.com"><img src="./assets/signature.jpg" width="340" alt="Thiago Antunes" /></a>
+</p>
