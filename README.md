@@ -157,5 +157,5 @@ agora:
 <br />
 
 <p align="center">
-  <a href="https://thiagoantunes.com"><img src="./assets/signature.jpg" width="340" alt="Thiago Antunes" /></a>
+  <a href="https://thiagoantunes.com"><img src="./assets/signature.png" width="440" alt="Thiago Antunes" /></a>
 </p>
