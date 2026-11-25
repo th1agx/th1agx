@@ -178,8 +178,8 @@ const projects = [
     n: "06",
     lang: "TypeScript",
     title: "Portfólio",
-    desc: "Portfólio construído como um filme: câmera parada, conteúdo transitando, texto acendendo palavra por palavra. Bilíngue PT/EN.",
-    tags: ["React 19", "GSAP", "Motion", "Lenis"],
+    desc: "Portfólio imersivo contado pela rolagem: retrato, vale lunar em raymarch, projetos em profundidade e um túnel até o contato.",
+    tags: ["Next.js", "Three.js", "WebGL · GLSL", "GSAP"],
     status: "thiagoantunes.com",
   },
 ];

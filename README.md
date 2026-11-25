@@ -66,7 +66,7 @@ agora:
   <a href="https://github.com/th1agx/devguard-skill"><img src="./assets/cards/devguard.svg" width="49%" alt="DevGuard Skill — disciplina de desenvolvimento para agentes de IA" /></a>
   <a href="https://github.com/th1agx/Python---Forza-Horizon-5-Auto-Drive-XP-Farm."><img src="./assets/cards/forza.svg" width="49%" alt="Forza Horizon 5 Auto Drive — automação em Python" /></a>
   <a href="https://github.com/th1agx/English-Learning-Experience"><img src="./assets/cards/english.svg" width="49%" alt="English Learning Experience" /></a>
-  <a href="https://github.com/th1agx/Portifolio_ThiagoAntunes"><img src="./assets/cards/portfolio.svg" width="49%" alt="Portfólio — thiagoantunes.com" /></a>
+  <a href="https://github.com/th1agx/portifolio"><img src="./assets/cards/portfolio.svg" width="49%" alt="Portfólio — thiagoantunes.com" /></a>
 </p>
 
 <p align="center">
